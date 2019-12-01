@@ -1,0 +1,218 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* head styles */
+
+
+.head-container {
+    background-image: url(../img/main-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#h1-head {
+    color: #ffffff;
+    font-size: 46px;
+    display: flex;
+    flex-direction: row;
+}
+
+#h2-head {
+    color: #333;
+    display: flex;
+    flex-direction: row;
+}
+
+.dateTime {
+    position: absolute;
+    transform: translateY(-7vh);
+    width: 100%;
+}
+
+#time,
+#date {
+    margin: 1px;
+    margin-right: 10px;
+}
+
+#bullet {
+    color: orangered;
+}
+
+p.head-class {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+hr {
+    width: 350px;
+    /* border-color: #007bff; */
+    border: 0.5px solid orangered !important;
+}
+
+/* head styles end */
+
+/* nav styles */
+
+.menu {
+    padding: 10px;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    position: sticky;
+    top: 0;
+
+}
+
+.menu-elements {
+    position: center;
+    display: flex;
+    color: #007bff;
+    position: static;
+}
+
+.link-menu {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* nav styles end */
+
+/* section about styles */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+#zdjecie {
+    border-radius: 100px;
+}
+
+.link-menu {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.link-menu:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
+    transform: scale(1.1);
+    transition: 250ms;
+}
+
+article {
+    text-align: center;
+    color: #777;
+}
+
+.link-portfolio {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* section about styles end */
+
+/* section skills styles */
+
+.skills {
+    font-size: 15px;
+}
+
+.head .container-fluid {
+    margin-top: 10vh;
+}
+
+i {
+    font-size: 2em;
+    color: #007bff;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 4rem;
+    padding: 1rem;
+    background-color: beige;
+}
+
+i:hover {
+    transform: rotateY(720deg);
+
+    transition: 500ms;
+}
+
+/* section skills styles end */
+
+/* section projects styles */
+.project {
+    font-weight: 400;
+    width: 80%;
+    height: 10vh;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.project:hover {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    transform: scale(1.1);
+    text-decoration: none;
+    transition: 250ms;
+}
+
+/* section projects styles end */
+
+/* footer styles */
+label,
+label input,
+textarea {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#button {
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+.rights {
+    background-color: grey;
+    margin: 0%;
+    font-size: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* footer styles end */
