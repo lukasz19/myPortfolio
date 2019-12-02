@@ -40,6 +40,7 @@ body {
 #date {
     margin: 1px;
     margin-right: 10px;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #bullet {
@@ -52,8 +53,8 @@ p.head-class {
 }
 
 hr {
-    width: 350px;
-    /* border-color: #007bff; */
+    width: 800px;
+    max-width: 90vw;
     border: 0.5px solid orangered !important;
 }
 
@@ -146,30 +147,35 @@ article {
 
 i {
     font-size: 2em;
-    color: #007bff;
+    color: orangered;
     height: 4rem;
     width: 4rem;
     border-radius: 4rem;
+    border: 1px solid #007bff;
     padding: 1rem;
     background-color: beige;
 }
 
 i:hover {
-    transform: rotateY(720deg);
-
+    transform: rotateY(360deg);
     transition: 500ms;
+}
+.fab.fa-react:hover {
+    transform: rotateZ(360deg);
+    transition: 500ms;
+}
+.skill {
+    font-weight: 600;
+    text-shadow: 1px 1px #007bff;
 }
 
 /* section skills styles end */
 
 /* section projects styles */
 .project {
-    font-weight: 400;
-    width: 80%;
     height: 10vh;
     margin: 10px;
     border-radius: 5px;
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
