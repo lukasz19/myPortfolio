@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -145,7 +149,7 @@ article {
     margin-top: 10vh;
 }
 
-i {
+.skills i {
     font-size: 2em;
     color: orangered;
     height: 4rem;
@@ -156,7 +160,7 @@ i {
     background-color: beige;
 }
 
-i:hover {
+.skills i:hover {
     transform: rotateY(360deg);
     transition: 500ms;
 }
@@ -210,6 +214,10 @@ textarea {
     color: white;
 }
 
+#button:hover {
+text-shadow: 1px 1px orangered;
+}
+
 .rights {
     background-color: grey;
     margin: 0%;
@@ -219,6 +227,24 @@ textarea {
 footer {
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.footer i {
+    font-size: 3em;
+    margin: 10px;
+    margin-top: 25px;
+    color: #007bff;
+    text-shadow: 1px 1px orangered;
+}
+
+.footer i:hover {
+    text-shadow: 2px 2px 2px orangered;
+    transform: scale(1.1);
+    transition: 250ms;
+}
+.footer a {
+    width: max-content;
+    height: max-content;
 }
 
 /* footer styles end */
